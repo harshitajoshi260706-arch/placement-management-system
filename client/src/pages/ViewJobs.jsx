@@ -12,7 +12,7 @@ function ViewJobs() {
 
     const fetchJobs = async () => {
 
-        const response = await fetch("http://localhost:5000/jobs");
+        const response = await fetch("https://placement-management-system-4d6n.onrender.com/jobs");
         const data = await response.json();
 
         setJobs(data);

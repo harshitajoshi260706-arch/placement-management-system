@@ -12,7 +12,7 @@ function ViewApplications() {
 
     const fetchApplications = async () => {
 
-        const response = await fetch("http://localhost:5000/applications");
+        const response = await fetch("https://placement-management-system-4d6n.onrender.com/applications");
         const data = await response.json();
 
         setApplications(data);

@@ -26,7 +26,7 @@ function StudentRegister() {
 
         console.log("Register button clicked");
 
-        const response = await fetch("http://localhost:5000/student/register", {
+        const response = await fetch("https://placement-management-system-4d6n.onrender.com/student/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
